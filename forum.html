@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+
+<html lan="en">
+    <head>
+         <meta charset="utf-8">
+        <meta name="Forum" content-="discussion area">
+
+
+<link href="Style.css" rel="Stylesheet">
+</head>
+   <body>
+       <center> <pre> FORUM</pre> </center>
+    <br>
+
+   <center><h3>Add a Topic</h3></center>
+  <form method=post action="do_addtopic.php">
+      <p> <center><strong>Your E-Mail Address:</strong></center>
+    <center><input type="text" name="topic_owner" size=40 maxlength=150> </center>
+  <p><center><strong>Topic Title:</strong><br>
+  <input type="text" name="topic_title" size=40 maxlength=150>
+  <P><strong>Post Text:</strong><br>
+  <textarea name="post_text" rows=8 cols=40 wrap=virtual></textarea>
+  <P><input type="submit" name="submit" value="Add Topic"></center></p>
+
+
+
+       <br>
+    <br>
+   <br>
+    <div class="home"><a href="index.html">Home Page</a></div>
+
+</form>
+</body>
+</html>

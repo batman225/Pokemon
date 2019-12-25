@@ -1,0 +1,65 @@
+<! doctype html>
+<html lan="en">
+    <head>
+         <meta charset="utf-8">
+        <meta name="Pokemon" content-="A page for the pokemon battle simulator">
+
+    <Title>Pokemon Battle Simulator</Title>
+        <link href="Style.css" rel="Stylesheet">
+        <link rel="icon" href="pokemon.png">
+         <script type="text/javascript">
+          function playSound(el,soundfile) {
+              var embed = document.getElementById("embed");
+              if (!embed) {
+                  var embed = document.createElement("embed");
+                      embed.id= "embed";
+                      embed.setAttribute("src", soundfile);
+                      embed.setAttribute("hidden", "true");
+                  el.appendChild(embed);
+              } else {
+                  embed.parentNode.removeChild(embed);
+              }
+          }
+
+
+
+      </script>
+
+
+    </head>
+
+    <body>
+
+        <center> <img src="img/pokemon.png" alt="Pokemon logo" width="100" height="100" > </center>
+  <center> <pre> WELCOME TO THE POKEMON  BATTLE SIMULATOR</pre> </center>
+
+
+
+<nav role="navigation">
+           <center> <b><a href="forum.html" target="new">Forum</a> |
+
+    <a href="ViewBattle.html">View Battle</a> |
+     <a href="Pokedex.html">Pokédex </a> |
+    <a href="Credits.html">Credits</a></b>
+           </center>
+</nav>
+
+      <br>
+
+
+  <center> <span id="dummy" onclick="playSound(this, 'Pikachu Echo.mp3');">
+      <img src="img/pikachu.jpg" title="click on me" name="Bottom-1" width="650" height="220" border="0" id="Bottom-1"/>
+    </span> </center>
+
+  <center><b><a class="btn btn-primary" href="start.html" role="button">Start  </a></b>  </center>
+         <br>
+         <br>
+
+    </body>
+
+    <footer role="contentinfo">
+  <p><small>&copy copyright 2018 <a href="http://www.dragonballz.pokemon3320@gmail.com" title="Mail Us " target="_blank"> Pokemon </a> | add us on instagram! <a href="https://www.instagram.com/pokemon/?hl=en" title="Follow us on Instagram">@pokemon</a>
+      </small></p>
+</footer>
+
+</html>
